@@ -1,0 +1,100 @@
+{"instruction": "¿Qué hace la función enumerate()?", "input": "", "output": "Devuelve el índice y el valor de los elementos de una lista al mismo tiempo en un bucle."}
+{"instruction": "¿Para qué sirve zip()?", "input": "", "output": "Para iterar sobre dos o más listas en paralelo, emparejando sus elementos."}
+{"instruction": "¿Qué es una lista por comprensión?", "input": "", "output": "Una forma compacta de crear listas nuevas en una sola línea de código."}
+{"instruction": "¿Cómo funciona un if anidado?", "input": "", "output": "Es un if dentro de otro if, usado para evaluar condiciones dependientes de una anterior."}
+{"instruction": "¿Qué hace el argumento 'step' en range()?", "input": "", "output": "Define el incremento entre cada número de la secuencia generada."}
+{"instruction": "¿Qué es el operador ternario?", "input": "", "output": "Una forma de escribir un if-else en una sola línea para asignar valores."}
+{"instruction": "¿Cómo itero sobre las llaves y valores de un diccionario?", "input": "", "output": "Usando el método .items() en un bucle for."}
+{"instruction": "¿Qué es un bucle infinito?", "input": "", "output": "Un bucle cuya condición nunca se vuelve falsa, bloqueando el programa."}
+{"instruction": "¿Cómo evito el salto de línea en print()?", "input": "", "output": "Cambiando el parámetro final con print(texto, end='')."}
+{"instruction": "¿Qué es try-except?", "input": "", "output": "Una estructura para manejar errores y evitar que el programa se detenga bruscamente."}
+{"instruction": "¿Para qué sirve el bloque 'finally'?", "input": "", "output": "Para ejecutar código que debe correr siempre, haya habido error o no."}
+{"instruction": "¿Qué hace 'isinstance()'?", "input": "", "output": "Verifica si una variable es de un tipo de dato específico, como una lista o un entero."}
+{"instruction": "¿Cómo invierto una lista sin métodos?", "input": "", "output": "Usando slicing: lista[::-1]."}
+{"instruction": "¿Qué es el desempaquetado de tuplas?", "input": "", "output": "Asignar los valores de una tupla a variables individuales en un solo paso."}
+{"instruction": "¿Para qué sirve 'pass'?", "input": "", "output": "Es un marcador de posición que no hace nada; evita errores en bloques vacíos."}
+{"instruction": "¿Cómo filtro una lista con una sola línea?", "input": "", "output": "Usando una list comprehension con una condición if al final."}
+{"instruction": "¿Qué hace la palabra clave 'global'?", "input": "", "output": "Permite modificar una variable que fue declarada fuera de la función actual."}
+{"instruction": "¿Qué es la mutabilidad?", "input": "", "output": "La capacidad de un objeto (como una lista) de ser modificado después de su creación."}
+{"instruction": "¿Cómo elimino duplicados de una lista rápido?", "input": "", "output": "Convirtiendo la lista a un set: list(set(mi_lista))."}
+{"instruction": "¿Qué es un argumento por defecto en una función?", "input": "", "output": "Un valor que la función usa si el usuario no proporciona uno al llamarla."}
+{"instruction": "¿Por qué mi variable '1er_numero' marca error?", "input": "", "output": "En Python, las variables no pueden empezar con números. Deben empezar con una letra o guion bajo (_)."}
+{"instruction": "¿Qué diferencia hay entre un entero (int) y un flotante (float)?", "input": "", "output": "Un 'int' es un número entero (ej. 5), mientras que un 'float' tiene decimales (ej. 5.0)."}
+{"instruction": "¿Para qué sirve la función input()?", "input": "", "output": "Sirve para pedirle datos al usuario. Recuerda que siempre recibe la información como texto (string)."}
+{"instruction": "¿Cómo convierto un texto a número?", "input": "", "output": "Usa int() para enteros o float() para decimales. Ejemplo: int('25')."}
+{"instruction": "¿Qué hace el operador módulo (%)?", "input": "", "output": "Te da el residuo de una división. 10 % 3 es 1, porque sobra 1."}
+{"instruction": "¿Qué es un 'string'?", "input": "", "output": "Es una cadena de texto encerrada entre comillas."}
+{"instruction": "¿Cómo sé cuántos elementos tiene una lista?", "input": "", "output": "Usa la función len(mi_lista)."}
+{"instruction": "¿Qué es un 'f-string'?", "input": "", "output": "Es una forma fácil de incluir variables en texto usando f'Hola {nombre}'."}
+{"instruction": "¿Por qué las listas empiezan en 0?", "input": "", "output": "Es una convención en programación; el primer índice siempre es el cero."}
+{"instruction": "¿Diferencia entre lista [] y tupla ()?", "input": "", "output": "Las listas se pueden modificar, las tuplas son fijas (inmutables)."}
+{"instruction": "¿Cómo agrego algo a una lista?", "input": "", "output": "Usa el método .append(). Ejemplo: lista.append('nuevo')."}
+{"instruction": "¿Qué es un IndexError?", "input": "", "output": "Significa que buscas una posición que no existe en la lista."}
+{"instruction": "¿Para qué sirve el bucle 'for'?", "input": "", "output": "Para recorrer elementos de una colección uno por uno."}
+{"instruction": "¿Cuándo uso un 'while'?", "input": "", "output": "Cuando quieres que algo se repita mientras una condición sea verdadera."}
+{"instruction": "¿Qué es un Booleano?", "input": "", "output": "Un tipo de dato que solo es True (Verdadero) o False (Falso)."}
+{"instruction": "¿Qué hace 'break'?", "input": "", "output": "Detiene y sale de un bucle inmediatamente."}
+{"instruction": "¿Qué hace 'continue'?", "input": "", "output": "Salta a la siguiente vuelta del bucle sin terminar la actual."}
+{"instruction": "¿Cómo defino una función?", "input": "", "output": "Usando la palabra 'def' seguida del nombre y paréntesis."}
+{"instruction": "¿Diferencia entre print() y return?", "input": "", "output": "print muestra en pantalla, return devuelve el valor para usarlo en el código."}
+{"instruction": "¿Qué es un diccionario?", "input": "", "output": "Una estructura de pares llave:valor, como {'nombre': 'Juan'}."}
+{"instruction": "¿Cómo se comentan líneas?", "input": "", "output": "Usando el símbolo # al inicio de la línea."}
+{"instruction": "¿Qué es la indentación?", "input": "", "output": "Son los 4 espacios obligatorios para definir bloques de código."}
+{"instruction": "¿Qué significa 'None'?", "input": "", "output": "Representa la ausencia de valor."}
+{"instruction": "¿Cómo importo una librería?", "input": "", "output": "Usando la palabra 'import'. Ejemplo: import math."}
+{"instruction": "¿Qué es un SyntaxError?", "input": "", "output": "Un error de escritura que Python no entiende."}
+{"instruction": "¿Cómo genero números aleatorios?", "input": "", "output": "Importando la librería 'random' y usando random.randint()."}
+{"instruction": "¿Qué hace el operador '!='?", "input": "", "output": "Significa 'no es igual a' o 'diferente de'."}
+{"instruction": "¿Para qué sirven 'and' y 'or'?", "input": "", "output": "Para combinar condiciones lógicas."}
+{"instruction": "¿Cómo leo un archivo txt?", "input": "", "output": "Usando open() con la instrucción 'with'."}
+{"instruction": "¿Qué es un entorno virtual?", "input": "", "output": "Un espacio aislado para instalar librerías sin afectar al sistema global."}
+{"instruction": "¿Qué es la complejidad temporal?", "input": "", "output": "La medida de cuánto aumenta el tiempo de ejecución conforme crecen los datos de entrada."}
+{"instruction": "¿Cómo funciona la Búsqueda Binaria?", "input": "", "output": "Divide una lista ordenada a la mitad repetidamente hasta hallar el valor."}
+{"instruction": "¿Qué ventaja tiene la Búsqueda Binaria?", "input": "", "output": "Es muy rápida (O(log n)), ideal para buscar en millones de datos ordenados."}
+{"instruction": "¿Qué es el ordenamiento Bubble Sort?", "input": "", "output": "Compara e intercambia elementos adyacentes hasta que los más grandes 'flotan' al final."}
+{"instruction": "¿Qué significa complejidad O(n^2)?", "input": "", "output": "Indica que el tiempo crece al cuadrado respecto a los datos, típico de bucles anidados."}
+{"instruction": "¿Cómo funciona el Insertion Sort?", "input": "", "output": "Inserta cada elemento en su posición correcta comparándolo con los anteriores, como ordenar cartas."}
+{"instruction": "¿Qué es el algoritmo QuickSort?", "input": "", "output": "Un algoritmo de 'divide y vencerás' que usa un pivote para particionar y ordenar la lista."}
+{"instruction": "¿Qué es el Merge Sort?", "input": "", "output": "Divide la lista en mitades hasta tener elementos únicos y luego los mezcla en orden."}
+{"instruction": "¿Qué es un algoritmo estable?", "input": "", "output": "Aquel que mantiene el orden original de elementos que tienen el mismo valor."}
+{"instruction": "¿Cuál es el mejor caso de QuickSort?", "input": "", "output": "Cuando el pivote divide la lista en dos partes iguales en cada paso."}
+{"instruction": "¿Qué es un algoritmo Greedy (Codicioso)?", "input": "", "output": "Uno que toma la mejor decisión en el momento actual sin mirar el futuro global."}
+{"instruction": "¿Para qué sirve el Selection Sort?", "input": "", "output": "Busca el mínimo de la lista y lo coloca al principio, repitiendo para el resto."}
+{"instruction": "¿Qué es la Búsqueda Lineal?", "input": "", "output": "Revisar cada elemento uno por uno de inicio a fin."}
+{"instruction": "¿Cuándo usar Búsqueda Lineal?", "input": "", "output": "Cuando los datos no están ordenados o la lista es muy pequeña."}
+{"instruction": "¿Qué es la complejidad espacial?", "input": "", "output": "La cantidad de memoria adicional que requiere un algoritmo para ejecutarse."}
+{"instruction": "¿Qué es un pivote?", "input": "", "output": "Un elemento de referencia usado en QuickSort para organizar los demás datos."}
+{"instruction": "¿Cómo funciona el Counting Sort?", "input": "", "output": "Cuenta las frecuencias de cada número para calcular sus posiciones finales directamente."}
+{"instruction": "¿Qué es la fuerza bruta?", "input": "", "output": "Intentar todas las combinaciones posibles hasta encontrar la solución correcta."}
+{"instruction": "¿Qué es Jump Search?", "input": "", "output": "Un algoritmo de búsqueda que salta bloques fijos en listas ordenadas para ahorrar tiempo."}
+{"instruction": "¿Qué algoritmo de ordenamiento usa Python?", "input": "", "output": "Usa Timsort, un híbrido eficiente entre Merge Sort e Insertion Sort."}
+{"instruction": "¿Qué es un Nodo?", "input": "", "output": "La pieza básica de una estructura que guarda un dato y una dirección al siguiente nodo."}
+{"instruction": "¿Qué es una Lista Enlazada?", "input": "", "output": "Una secuencia de nodos donde cada uno apunta al siguiente, en lugar de estar juntos en memoria."}
+{"instruction": "¿Diferencia entre Array y Lista Enlazada?", "input": "", "output": "El Array es rápido para acceder por índice; la Lista Enlazada es rápida para insertar elementos."}
+{"instruction": "¿Qué es una Pila (Stack)?", "input": "", "output": "Estructura tipo LIFO donde el último en entrar es el primero en salir."}
+{"instruction": "¿Qué es una Cola (Queue)?", "input": "", "output": "Estructura tipo FIFO donde el primero en llegar es el primero en ser atendido."}
+{"instruction": "¿Qué es un Árbol Binario?", "input": "", "output": "Una jerarquía donde cada nodo padre tiene como máximo dos nodos hijos."}
+{"instruction": "¿Qué es un Árbol Binario de Búsqueda (BST)?", "input": "", "output": "Un árbol donde los valores menores van a la izquierda y los mayores a la derecha."}
+{"instruction": "¿Qué es un Grafo?", "input": "", "output": "Un conjunto de nodos (vértices) conectados por líneas (aristas) que representan redes."}
+{"instruction": "¿Qué es una Tabla Hash?", "input": "", "output": "Una estructura que usa una función matemática para guardar datos y encontrarlos casi al instante."}
+{"instruction": "¿Qué es una colisión en Hash?", "input": "", "output": "Cuando dos datos diferentes terminan en la misma posición de la tabla por error de la función."}
+{"instruction": "¿Qué es un Heap?", "input": "", "output": "Un árbol especial donde el nodo raíz siempre es el mayor (o menor) de todos sus hijos."}
+{"instruction": "¿Qué es un Set en Python?", "input": "", "output": "Una colección que no permite elementos repetidos y no tiene un orden fijo."}
+{"instruction": "¿Para qué sirve una matriz?", "input": "", "output": "Para representar datos en tablas bidimensionales de filas y columnas."}
+{"instruction": "¿Qué es el recorrido BFS?", "input": "", "output": "Búsqueda en anchura: explora primero todos los vecinos cercanos antes de ir más profundo en un grafo."}
+{"instruction": "¿Qué es el recorrido DFS?", "input": "", "output": "Búsqueda en profundidad: sigue un camino hasta el fondo antes de retroceder en un grafo."}
+{"instruction": "¿Qué es un grafo dirigido?", "input": "", "output": "Un grafo donde las conexiones tienen una flecha que indica el sentido del movimiento."}
+{"instruction": "¿Qué es un grafo pesado?", "input": "", "output": "Un grafo donde las aristas tienen un costo o valor (como la distancia entre ciudades)."}
+{"instruction": "¿Qué es una lista de adyacencia?", "input": "", "output": "Una forma de representar grafos usando diccionarios para listar los vecinos de cada nodo."}
+{"instruction": "¿Qué es un árbol balanceado?", "input": "", "output": "Un árbol que intenta tener la misma altura en todas sus ramas para ser eficiente."}
+{"instruction": "¿Qué es el factor de carga?", "input": "", "output": "La relación entre el número de elementos guardados y el tamaño total de una Tabla Hash."}
+{"instruction": "¿Qué es la Programación Dinámica?", "input": "", "output": "Técnica que guarda resultados de problemas pequeños para no tener que calcularlos de nuevo."}
+{"instruction": "¿Qué es el caso base en recursión?", "input": "", "output": "La condición que detiene las llamadas a la función para evitar que el programa se trabe infinitamente."}
+{"instruction": "¿Qué es el desbordamiento de pila?", "input": "", "output": "Un error que ocurre cuando una función recursiva se llama demasiadas veces sin parar."}
+{"instruction": "¿Qué es un decorador?", "input": "", "output": "Una función especial que añade capacidades a otra función sin modificar su código original."}
+{"instruction": "¿Qué hace la palabra yield?", "input": "", "output": "Pausa una función y devuelve un valor, permitiendo crear generadores que ahorran memoria."}
+{"instruction": "¿Qué es la Programación Orientada a Objetos?", "input": "", "output": "Un estilo de programación basado en crear 'moldes' llamados clases para generar objetos con datos."}
+{"instruction": "¿Qué es una Clase?", "input": "", "output": "La plantilla o plano que define cómo será un objeto (sus datos y sus acciones)."}
+{"instruction": "¿Qué es la herencia?", "input": "", "output": "Permite que una clase nueva tome las características de una clase ya existente."}
+{"instruction": "¿Qué es el polimorfismo?", "input": "", "output": "La capacidad de diferentes objetos de realizar la misma acción de maneras distintas según su tipo."}
+{"instruction": "¿Qué es el algoritmo de Dijkstra?", "input": "", "output": "Un algoritmo famoso para encontrar el camino más corto entre dos puntos en un mapa o grafo."}
